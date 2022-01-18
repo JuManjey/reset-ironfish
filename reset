@@ -13,7 +13,7 @@ systemctl restart ironfishd ironfishd-miner
 ironfish config:get blockGraffiti
 ironfish config:set blockGraffiti $IRONFISH_NODENAME
 
-
+systemctl status ironfishd ironfishd-miner
 
 
 
